@@ -4,5 +4,5 @@ It supports basic shell functionality such as command execution, input/output re
 
 Authors
 Ibukunoluwa Adekunle (https://github.com/ahavatech)
-Solomon Ngwu (https://github.com/solomonngwu)
+Solomon Ngwu (https://github.com/Khatchi)
 
