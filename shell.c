@@ -17,7 +17,7 @@ int main(int ac, char **av, char *envp[])
 	(void)envp, (void)av;
 	if (ac < 1)
 		return (-1);
-	signal(SIGINT, handle_signal);
+	signal(SIGINT, signal);
 	while (1)
 	{
 		free_buffers(command);
