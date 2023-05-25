@@ -5,7 +5,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <signal.h>
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/wait.h>
@@ -18,9 +17,9 @@ extern char **environ;
 extern __sighandler_t signal(int __sig, __sighandler_t __handler);
 
 /* handle built ins */
-int check(char **cmd, char *buf);
+int checker(char **cmd, char *buf);
 void prompt_user(void);
-void signal(int m);
+void handle_signal(int m);
 char **tokenizer(char *line);
 char *test_path(char **path, char *command);
 char *append_path(char *path, char *command);
