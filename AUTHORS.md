@@ -1,1 +1,1 @@
-Authors: Adekunle Ibukunoluwa, Solomon Ngwu
+Authors:  Adekunle Ibukunoluwa, Solomon Ngwu
